@@ -12,10 +12,14 @@
     <header class="header">
         <div class="header__wrapper">
             <div class="header__left">
-                <a href="#" class="header__title-logo">Услуги и сервисы Пермского края</a>
+                <a href="#" class="header__title_logo"></a>
+                <a href="#" class="header__title">Услуги и сервисы Пермского края</a>
+
             </div>
             <div class="header__right">
+                <a href="#" class="header__user_logo"></a>
                 <a href="#" class="header__user">Константинопольский К.К</a>
+                <a href="#" class="header__quit_logo"></a>
                 <a href="#" class="header__quit">Выйти</a>
             </div>
         </div>
@@ -51,7 +55,7 @@
                     <div class="choose__title">Выбор заявителя</div>
                 </div>
 
-                <form class="choose__content" onsubmit="nextStep1();return false;">
+                <form class="choose__content">
                     <label class="choose__item" for="" id="choose_1">
                         <input type="radio" id="phis" name="choose">
                         <span class="choose__item__checkmark"></span>
@@ -84,7 +88,7 @@
                     <div class="data__title">Данные заявителя</div>
                 </div>
 
-                <form class="data__content" action="" id="data" onsubmit="nextStep2();return false;">
+                <form class="data__content" action="" id="data">
                     <label for="surname">
                         <p class="data__text">Фамилия</p>
                         <input  type="text" name="surname" class="data__input" value="Константинопольский" required>
@@ -169,8 +173,8 @@
                             </li>
                         </ul>
 
-                        <form class="agreement__form" onsubmit="nextStep3();return false;">
-                            <label class="agreement__form__item" for="" id="agreement_1">
+                        <form class="agreement__form" action="" id="data">
+                            <label class="agreement__form__item" for="condition_1" id="agreement_1">
                                 <span class="agreement__form__input">
                                     <input type="checkbox" id="agr_1" name="agreement">
                                     <span class="agreement__form__item__checkbox">
@@ -185,7 +189,7 @@
                                 </span>
                             </label>
         
-                            <label class="agreement__form__item" for="" id="agreement_2">
+                            <label class="agreement__form__item" for="condition_2" id="agreement_2">
                                 <span class="agreement__form__input">
                                     <input type="checkbox" id="agr_2" name="agreement">
                                     <span class="agreement__form__item__checkbox">
